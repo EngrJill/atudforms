@@ -94,7 +94,7 @@
                     partners; and I hereby consent to receive marketing and promotional materials by telephone, 
                     SMS or e-mail and through other channels as determined by Atud.</label></br>
                     </br>
-                        <input type="button" :style="{backgroundColor: isDisabledColor}" onClick="document.location.href='helloworld.php'" @click="createContact()" :disabled='isDisabled' value="REGISTER" class="add">
+                        <input type="button" :style="{backgroundColor: isDisabledColor}" onClick="document.location.href='success.php'" @click="createContact()" :disabled='isDisabled' value="REGISTER" class="add">
                 
                 </form>
             </div>
