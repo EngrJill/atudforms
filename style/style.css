@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f4ffef;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  background-color: #2da81a;
+  z-index: 999;
+}
+
+.navbar img {
+  position: absolute;
+  width: 80px;
+  height: 40px;
+  background-color: #2da81a;
+  top: 8px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.container {
+  width: 80vw;
+  height: 85vh;
+  background-color: white;
+  -webkit-box-shadow: 0 2px 18px #bdbdbd;
+          box-shadow: 0 2px 18px #bdbdbd;
+  border-radius: 8px;
+  position: relative;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.container .container-formcontainer {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  border-radius: 0 8px 8px 0;
+  right: 0;
+  background-color: white;
+}
+
+.container .container-formcontainer .container-formcontainer-title {
+  height: 20%;
+  width: 100%;
+  background-color: white;
+}
+
+.container .container-formcontainer .container-formcontainer-title h5 {
+  text-align: center;
+  margin-top: 7px;
+  background-color: white;
+}
+
+.container .container-formcontainer .container-formcontainer-title .img-container {
+  margin-top: 20px;
+  background-color: white;
+}
+
+.container .container-formcontainer .container-formcontainer-title .img-container img {
+  height: 60px;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.container .container-formcontainer .container-formcontainer-title .container-formcontainer-title-bg {
+  height: 50px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ECFFE2;
+}
+
+.container .container-formcontainer .container-formcontainer-title .container-formcontainer-title-bg h1 {
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #ECFFE2;
+  padding-top: 10px;
+}
+
+.container .container-formcontainer .container-formcontainer-form {
+  height: 75%;
+  width: 75%;
+  margin: auto;
+  line-height: 120%;
+  background-color: white;
+}
+
+.container .container-formcontainer .container-formcontainer-form label {
+  background-color: white;
+  font-weight: bold;
+}
+
+.container .container-formcontainer .container-formcontainer-form .agree, .container .container-formcontainer .container-formcontainer-form .agree2 {
+  font-weight: 300;
+}
+
+.container .container-formcontainer .container-formcontainer-form .number-email-container {
+  background-color: white;
+}
+
+.container .container-formcontainer .container-formcontainer-form .dual-form-container {
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: white;
+}
+
+.container .container-formcontainer .container-formcontainer-form .dual-form-container .number-branches-container {
+  width: 30%;
+  background-color: white;
+}
+
+.container .container-formcontainer .container-formcontainer-form .dual-form-container .number-branches-container .number_branches {
+  border: 1.5px solid #A2A2A2;
+  height: 40px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.container .container-formcontainer .container-formcontainer-form .dual-form-container label {
+  background-color: white;
+}
+
+.container .container-formcontainer .container-formcontainer-form .dual-form-container .business-address-container {
+  width: 65%;
+  background-color: white;
+}
+
+.container .container-formcontainer .container-formcontainer-form .dual-form-container .business-address-container .business_address {
+  border: 1.5px solid #A2A2A2;
+  height: 40px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.container .container-formcontainer .container-formcontainer-form .location, .container .container-formcontainer .container-formcontainer-form .business_name, .container .container-formcontainer .container-formcontainer-form .mobile_number, .container .container-formcontainer .container-formcontainer-form .business_email {
+  border: 1.5px solid #A2A2A2;
+  border-radius: 5px;
+  height: 40px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.container .container-formcontainer .container-formcontainer-form .add {
+  height: 40px;
+  width: 200px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container .container-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  float: right;
+  width: 50%;
+  border-radius: 8px 0 0 8px;
+  background-color: white;
+}
+
+.container .container-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px 0 0 8px;
+}
+
+@media screen and (max-width: 1700px) {
+  .container {
+    height: 95vh;
+  }
+}
+
+@media screen and (max-width: 1435px) {
+  .container {
+    height: 1200px;
+  }
+  .container .container-formcontainer .container-formcontainer-form .dual-form-container {
+    display: block;
+  }
+  .container .container-formcontainer .container-formcontainer-form .dual-form-container .number-branches-container {
+    width: 100%;
+  }
+  .container .container-formcontainer .container-formcontainer-form .dual-form-container .number-branches-container .number_branches {
+    width: 100%;
+  }
+  .container .container-formcontainer .container-formcontainer-form .dual-form-container .business-address-container {
+    width: 100%;
+  }
+  .container .container-formcontainer .container-formcontainer-form .dual-form-container .business-address-container .business_address {
+    width: 100%;
+  }
+  .container .container-formcontainer .container-formcontainer-form .number-email-container {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    height: 1500px;
+  }
+  .container .container-img {
+    width: 100%;
+    height: 30%;
+  }
+  .container .container-formcontainer {
+    width: 100%;
+    height: 70%;
+    margin-top: 450px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
