@@ -26,7 +26,7 @@
 
 .container {
   width: 80vw;
-  height: 85vh;
+  height: 100vh;
   background-color: white;
   -webkit-box-shadow: 0 2px 18px #bdbdbd;
           box-shadow: 0 2px 18px #bdbdbd;
@@ -94,6 +94,26 @@
   background-color: white;
 }
 
+.container .container-formcontainer .container-formcontainer-form .vehicle-container {
+  margin-top: 20px;
+}
+
+.container .container-formcontainer .container-formcontainer-form .vehicle-container .vehicle-label {
+  font-weight: bold;
+}
+
+.container .container-formcontainer .container-formcontainer-form .vehicle-container label {
+  font-weight: 300;
+}
+
+.container .container-formcontainer .container-formcontainer-form .model-container {
+  margin-bottom: 20px;
+}
+
+.container .container-formcontainer .container-formcontainer-form .model-container p {
+  margin-bottom: 10px;
+}
+
 .container .container-formcontainer .container-formcontainer-form label {
   background-color: white;
   font-weight: bold;
@@ -119,12 +139,12 @@
   background-color: white;
 }
 
-.container .container-formcontainer .container-formcontainer-form .dual-form-container .number-branches-container {
-  width: 30%;
+.container .container-formcontainer .container-formcontainer-form .dual-form-container .first_name_container {
+  width: 48%;
   background-color: white;
 }
 
-.container .container-formcontainer .container-formcontainer-form .dual-form-container .number-branches-container .number_branches {
+.container .container-formcontainer .container-formcontainer-form .dual-form-container .first_name_container .first_name {
   border: 1.5px solid #A2A2A2;
   height: 40px;
   width: 100%;
@@ -137,12 +157,12 @@
   background-color: white;
 }
 
-.container .container-formcontainer .container-formcontainer-form .dual-form-container .business-address-container {
-  width: 65%;
+.container .container-formcontainer .container-formcontainer-form .dual-form-container .last_name_container {
+  width: 48%;
   background-color: white;
 }
 
-.container .container-formcontainer .container-formcontainer-form .dual-form-container .business-address-container .business_address {
+.container .container-formcontainer .container-formcontainer-form .dual-form-container .last_name_container .last_name {
   border: 1.5px solid #A2A2A2;
   height: 40px;
   width: 100%;
@@ -204,16 +224,16 @@
   .container .container-formcontainer .container-formcontainer-form .dual-form-container {
     display: block;
   }
-  .container .container-formcontainer .container-formcontainer-form .dual-form-container .number-branches-container {
+  .container .container-formcontainer .container-formcontainer-form .dual-form-container .first_name_container {
     width: 100%;
   }
-  .container .container-formcontainer .container-formcontainer-form .dual-form-container .number-branches-container .number_branches {
+  .container .container-formcontainer .container-formcontainer-form .dual-form-container .first_name_container .first_name {
     width: 100%;
   }
-  .container .container-formcontainer .container-formcontainer-form .dual-form-container .business-address-container {
+  .container .container-formcontainer .container-formcontainer-form .dual-form-container .last_name_container {
     width: 100%;
   }
-  .container .container-formcontainer .container-formcontainer-form .dual-form-container .business-address-container .business_address {
+  .container .container-formcontainer .container-formcontainer-form .dual-form-container .last_name_container .last_name {
     width: 100%;
   }
   .container .container-formcontainer .container-formcontainer-form .number-email-container {
@@ -235,4 +255,4 @@
     margin-top: 450px;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=paraatud-style.css.map */
